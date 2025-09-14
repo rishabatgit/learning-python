@@ -19,6 +19,26 @@
 
 
 
-fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
-fruits = [ fruit.upper() for fruit in fruits]
-print(fruits)
+#fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+#fruits = [ fruit.upper() for fruit in fruits]
+#print(fruits)
+
+
+
+
+#numbers = [1,2,3,4,5,6,7,-8,9,10]
+#psitive_num =[num for num in numbers if num>=0]
+#print(psitive_num)
+
+
+
+
+
+
+
+
+grades = [65, 90, 75, 82, 55, 98, 100, 45, 73]
+passe_students = [grade for grade in grades if grade>=60]
+fail_stdents = [grade for grade in grades if grade<60]
+print(f"pass students: {passe_students}")
+print(f"fail students: {fail_stdents}")
